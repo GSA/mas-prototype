@@ -1,0 +1,49 @@
+---
+title: Test
+layout: base
+---
+
+<h1>Test Form</h1>
+
+<form id="test-form" class="usa-form usa-form--large">
+  <fieldset class="usa-fieldset">
+    <p>
+      Required fields are marked with an asterisk (<abbr
+        title="required"
+        class="usa-hint usa-hint--required"
+        >*</abbr
+      >).
+    </p>
+    <label class="usa-label" for="first-name"
+      >Thing 1
+      <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
+    >
+    <input
+      class="usa-input usa-input--xl"
+      id="thing-one"
+      name="thing-one"
+      required
+      aria-required="true"
+    />
+    <label class="usa-label" for="middle-name">Thing 2</label>
+    <input
+      class="usa-input usa-input--xl"
+      id="thing-two"
+      name="thing-two"
+    />
+    <label class="usa-label" for="last-name"
+      >Thing 3
+      <abbr title="required" class="usa-hint usa-hint--required">*</abbr></label
+    >
+    <input
+      class="usa-input usa-input--xl"
+      id="thing-three"
+      name="thing-three"
+      required
+      aria-required="true"
+    />
+    <button class="usa-button" type="submit">Submit</button>
+  </fieldset>
+</form>
+
+<pre id="output"></pre>
